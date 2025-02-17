@@ -1,22 +1,19 @@
 <!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Log Analysis Lab</span>
 </h1>
-
-tktk Add some default course navigation content here. This landing page will be used when a student's course cannot be determined, so don't include any course-specific details.
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+This lab aims to give students hands-on practice with one of the fundamental skills of cybersecurity - log analysis. Being able to sift through logs, recognize patterns, and spot anomalies is crucial for identifying potential security incidents.
 
 ## Content
 
-- [Setup](./setup/README.md)
-- [Exercise](./exercise/README.md)
+- [Getting Familiar with Your Log Dump](../familiarize-log-dump/README.md)
+- [Identify Patterns and Anomalies](../patterns-and-anomalies/README.md)
+- [Document Identified Issues](../document-identified-issues/README.md)
 
 ## Level Up
 
-tktk If there is no Level Up content for this lab, then this section and all of its content should be removed.
-
-🚀 [Level Up](./level-up/README.md)
+🚀 [Level Up](../level-up/README.md)
