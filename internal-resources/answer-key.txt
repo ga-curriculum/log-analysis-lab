@@ -1,0 +1,122 @@
+1. Localhost traffic on unusual port (3000):
+   2023-02-17 09:34:09 127.0.0.1 127.0.0.1 TCP 3000 Allow 57289
+   Potential rogue process or misconfiguration. Could be command & control.
+
+2. Outbound SMTP traffic: 
+   2023-02-17 09:34:14 192.168.1.49 216.109.119.63 TCP 25 Allow 7421
+   Unexpected outbound mail could indicate malware/spam.
+
+3. IPv6 SSH connection denied:
+   2023-02-17 09:34:50 fdf8:f53b:82e4::53 fdf8:f53b:82e4:0:1652:14ff:fe0b:b71c TCP 22 Deny 0
+   Failed incoming SSH over IPv6, potential brute force attempt.
+
+4. SIP traffic over UDP:
+   2023-02-17 09:35:04 192.168.1.161 204.141.42.39 UDP 5060 Allow 5720  
+   SIP protocol for VoIP - unusual in this environment, investigate.
+
+5. Outbound UDP on high port:
+   2023-02-17 09:35:21 192.168.1.76 23.2.16.65 UDP 8000 Allow 1104
+   Non-standard UDP traffic on high port to unfamiliar IP, potential C2 channel.
+
+6. Repeated ICMP to cloud provider:
+   2023-02-17 09:35:30 192.168.1.34 35.186.224.47 ICMP 0 Allow 98
+   2023-02-17 09:33:57 192.168.1.33 116.132.235.228 ICMP 0 Allow 98
+   Frequent ICMP traffic to cloud IPs, could be data exfiltration over ping.
+
+7. Large inbound TCP session from cloud provider:
+   2023-02-17 09:35:36 192.168.1.163 13.107.246.57 TCP 443 Allow 73240
+   Unusually large amount of data transferred, may warrant investigation.
+
+8. Blocked UDP port 443:
+   2023-02-17 09:35:56 172.17.99.132 205.185.216.10 UDP 443 Deny 6340
+   Attempted outbound UDP on HTTPS port, very suspicious.
+
+9. FTP traffic:
+   2023-02-17 09:36:07 192.168.1.61 217.23.2.15 TCP 21 Allow 3629
+   2023-02-17 09:36:15 192.168.1.61 141.98.10.195 TCP 21 Allow 2745
+   Unencrypted FTP is risky, especially to unfamiliar IPs. Possible data theft.
+
+10. Repeated high volume Twitter traffic: 
+    2023-02-17 09:36:29 192.168.1.119 104.244.42.1 TCP 80 Allow 55713
+    2023-02-17 09:36:30 192.168.1.119 104.244.42.129 TCP 80 Allow 43896
+    Large volumes of unencrypted Twitter traffic, potential posting of confidential info.
+
+11. Blocked high port TCP: 
+    2023-02-17 09:36:44 192.168.1.80 185.151.204.30 TCP 48127 Deny 48
+    Unusual outbound high port connection attempt to suspicious IP.
+
+12. SMB traffic:
+    2023-02-17 09:36:59 172.17.98.202 172.22.243.84 TCP 445 Allow 3917
+    SMB on internal network, potential lateral movement and credential abuse.
+
+13. SSDP reflection DDoS:
+    2023-02-17 09:37:04 192.168.1.229 239.255.255.250 UDP 443 Allow 6273
+    2023-02-17 09:37:07 192.168.1.229 239.255.255.250 UDP 443 Allow 6273 
+    2023-02-17 09:37:09 192.168.1.229 255.255.255.255 UDP 443 Allow 6273
+    SSDP traffic to multicast/broadcast addresses with source port 443 - potential DDoS amplification.
+
+14. Repeated large downloads from VPS provider:
+    2023-02-17 09:37:17 192.168.1.150 162.159.134.234 TCP 443 Allow 70136
+    2023-02-17 09:37:21 192.168.1.150 162.159.135.234 TCP 443 Allow 39621
+    2023-02-17 09:37:27 192.168.1.150 162.159.130.233 TCP 443 Allow 72643
+    2023-02-17 09:37:30 192.168.1.150 162.159.133.232 TCP 443 Allow 35982
+    Repeated high volume HTTPS connections to Cloudflare IPs - possible malware download.
+
+15. Outbound UDP over HTTPS port:
+    2023-02-17 09:37:38 192.168.1.44 54.230.21.74 UDP 443 Allow 1348
+    2023-02-17 09:37:45 192.168.1.44 52.202.62.252 UDP 443 Allow 1348 
+    2023-02-17 09:37:49 192.168.1.44 34.203.250.135 UDP 443 Allow 1348
+    2023-02-17 09:37:52 192.168.1.44 54.230.21.116 UDP 443 Allow 1348
+    Malware beaconing on UDP 443 to bypass firewalls. C2 comms to multiple Amazon IPs.
+
+16. Repeated outbound UDP from Ubuntu mirror:  
+    2023-02-17 09:38:01 192.168.1.194 91.189.91.157 UDP 443 Allow 1392
+    2023-02-17 09:38:07 192.168.1.194 91.189.88.180 UDP 443 Allow 1392
+    2023-02-17 09:38:13 192.168.1.194 91.189.95.83 UDP 443 Allow 1392
+    Outbound UDP on 443 to Ubuntu mirrors, possible malware distribution or compromised update server.
+
+17. Repeated blocked connections to foreign IP:
+    2023-02-17 09:38:24 192.168.1.72 111.221.29.254 TCP 443 Deny 0
+    2023-02-17 09:38:31 192.168.1.72 111.221.29.254 TCP 443 Deny 0
+    2023-02-17 09:38:39 192.168.1.72 111.221.29.254 TCP 443 Deny 0
+    2023-02-17 09:38:46 192.168.1.72 111.221.29.254 TCP 443 Deny 0 
+    2023-02-17 09:38:53 192.168.1.72 111.221.29.254 TCP 443 Deny 0
+    Persistent attempts to connect to foreign IP, likely malware C2 channel.
+
+18. SQL traffic to cloud provider:  
+    2023-02-17 09:39:03 192.168.1.19 40.94.31.197 TCP 1433 Allow 37419
+    2023-02-17 09:39:08 192.168.1.19 40.94.25.38 TCP 1433 Allow 32780 
+    2023-02-17 09:39:11 192.168.1.19 40.94.28.182 TCP 1433 Allow 41935
+    Large amounts of data sent over MSSQL port to Azure IPs. Potential database exfiltration.
+
+19. Localhost traffic to Elasticsearch port:
+    2023-02-17 09:39:19 127.0.0.1 127.0.0.1 TCP 9200 Allow 38192
+    2023-02-17 09:39:22 127.0.0.1 127.0.0.1 TCP 9200 Allow 44735
+    2023-02-17 09:39:25 127.0.0.1 127.0.0.1 TCP 9200 Allow 61208  
+    Large volume of local traffic to Elasticsearch default port, investigate for possible exploitation.
+
+20. Unencrypted HTTP to Google IPs:
+    2023-02-17 09:39:31 192.168.1.87 216.58.210.98 TCP 80 Allow 2914
+    2023-02-17 09:39:33 192.168.1.87 216.58.210.99 TCP 80 Allow 3027
+    HTTP traffic to Google on port 80 is unusual, most Google services enforce HTTPS. Investigate.
+
+21. High volume traffic to Microsoft IP:
+    2023-02-17 09:40:03 192.168.1.87 13.107.4.50 TCP 443 Allow 3489
+    Unusually large HTTPS connection to Microsoft IP, possible OneDrive sync of sensitive files.
+
+22. Short connection to Google IP:  
+    2023-02-17 09:40:17 192.168.1.20 142.250.74.67 TCP 443 Allow 7
+    Very short HTTPS session transferring only 7 bytes to Google, signature of malware beaconing.
+
+23. Repeated UDP connections on port 123:
+    2023-02-17 09:36:04 192.168.1.85 128.1.248.42 UDP 123 Allow 287
+    2023-02-17 09:36:06 192.168.1.85 198.186.190.242 UDP 123 Allow 287 
+    While port 123 is for NTP, these IPs are not known time servers. Could be data exfil or C2.
+
+24. Internal UDP port 138:  
+    2023-02-17 09:36:52 172.17.99.3 172.17.99.255 UDP 138 Allow 224
+    UDP port 138 is associated with the NetBIOS datagram service. Potential worm propagation.
+
+25. Incoming UDP on port 67:
+    2023-02-17 09:34:16 192.168.1.37 19.89.143.11 UDP 67 Allow 256
+    Unexpected incoming DHCP traffic could indicate rogue DHCP server or DHCP starvation attack.
