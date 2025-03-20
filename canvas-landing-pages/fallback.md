@@ -10,10 +10,15 @@ This lab aims to give students hands-on practice with one of the fundamental ski
 
 ## Content
 
-- [Getting Familiar with Your Log Dump](../familiarize-log-dump/README.md)
-- [Identify Patterns and Anomalies](../patterns-and-anomalies/README.md)
+- [Setup](../setup/README.md)
+- [Get Familiar With the Log Dump](../get-familiar-with-the-log-dump/README.md)
+- [Identify Patterns and Anomalies](../identify-patterns-and-anomalies/README.md)
 - [Document Identified Issues](../document-identified-issues/README.md)
 
 ## Level Up
 
 🚀 [Level Up](../level-up/README.md)
+
+## Rubric
+
+[Rubric](../rubrics/itb.md)

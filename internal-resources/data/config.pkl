@@ -21,11 +21,11 @@ repo {
 courses {
   new {
     // Do not remove this fallback course!
-    name = "fallback"
+    name = "itb"
     microlessons {
-      // Add microlessons here, in the order they should be delivered
-      mls.familiarizeLogDump
-      mls.patternsAndAnomalies
+      mls.setup
+      mls.getFamiliarWithTheLogDump
+      mls.identifyPatternsAndAnomalies
       mls.documentIdentifiedIssues
       // You can make course-specific adjustments using a syntax like this:
       (mls.levelUp) {
@@ -33,13 +33,14 @@ courses {
       }
     }
   }
-    new {
+  new {
     // Do not remove this fallback course!
-    name = "itb"
+    name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
-      mls.familiarizeLogDump
-      mls.patternsAndAnomalies
+      mls.setup
+      mls.getFamiliarWithTheLogDump
+      mls.identifyPatternsAndAnomalies
       mls.documentIdentifiedIssues
       // You can make course-specific adjustments using a syntax like this:
       (mls.levelUp) {
