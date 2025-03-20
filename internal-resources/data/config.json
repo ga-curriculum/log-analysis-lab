@@ -14,14 +14,24 @@
   },
   "courses": [
     {
-      "name": "fallback",
+      "name": "itb",
       "courseAcronym": "",
       "courseFullName": "",
       "logoUrl": "",
       "microlessons": [
         {
-          "friendlyName": "Getting Familiar with Your Log Dump",
-          "dirName": "familiarize-log-dump",
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Get Familiar With the Log Dump",
+          "dirName": "get-familiar-with-the-log-dump",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -31,7 +41,7 @@
         },
         {
           "friendlyName": "Identify Patterns and Anomalies",
-          "dirName": "patterns-and-anomalies",
+          "dirName": "identify-patterns-and-anomalies",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -83,14 +93,24 @@
       "isActivityTimeShown": true
     },
     {
-      "name": "itb",
+      "name": "fallback",
       "courseAcronym": "",
       "courseFullName": "",
       "logoUrl": "",
       "microlessons": [
         {
-          "friendlyName": "Getting Familiar with Your Log Dump",
-          "dirName": "familiarize-log-dump",
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Get Familiar With the Log Dump",
+          "dirName": "get-familiar-with-the-log-dump",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -100,7 +120,7 @@
         },
         {
           "friendlyName": "Identify Patterns and Anomalies",
-          "dirName": "patterns-and-anomalies",
+          "dirName": "identify-patterns-and-anomalies",
           "type": "Content",
           "skill": "",
           "learningObjective": "",

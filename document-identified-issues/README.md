@@ -3,7 +3,7 @@
   <span class="subhead">Document Identified Issues</span>
 </h1>
 
-## Document Identified Issues
+## Exercise
 
 You should now have a list of at least 10 items you've flagged as potentially suspicious or problematic. In this exercise, you'll document these in more detail.
 For each issue, create a record including:

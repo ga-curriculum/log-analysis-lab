@@ -1,9 +1,9 @@
 <h1>
   <span class="headline">Log Analysis Lab</span>
-  <span class="subhead">Getting Familiar with Your Assigned Log Dump</span>
+  <span class="subhead">Get Familiar With the Log Dump</span>
 </h1>
 
-## Getting Familiar with Your Log Dump
+## Exercise
 
 In this lab, you will develop critical skills in analyzing system logs to identify patterns, anomalies and potential security issues. Being able to interpret the vast amount of data in log files is an essential skill for any cybersecurity professional.
 
