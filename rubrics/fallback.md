@@ -1,13 +1,37 @@
 <h1>
-  <span class="headline">Firewalls in the Cloud Lab</span>
+  <span class="headline">Log Analysis Lab</span>
   <span class="subhead">Rubric</span>
 </h1>
 
 ## Lab requirements
 
-The following requirements describe the necessary deliverables for the Firewalls in the Cloud Lab.
+The following requirements describe the necessary deliverables for the Log Analysis Lab.
 
-| Criteria                  | Points |
-| ------------------------- | ------ |
-| tktk                      | 100    |
-| **Total possible points** | 100    |
+| Criteria                                                                                                                                                                                                                                                      | Points |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 1 issue.   | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 2 issues.  | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 3 issues.  | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 4 issues.  | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 5 issues.  | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 6 issues.  | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 7 issues.  | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 8 issues.  | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 9 issues.  | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 10 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 11 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 12 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 13 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 14 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 15 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 16 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 17 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 18 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 19 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 20 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 21 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 22 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 23 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 24 issues. | 4      |
+| The <code class="filepath">README.md</code> file contains a correctly identified problematic log entry, a correct description of the log entry, a valid reason for concern, a feasible potential impact, and technically possible explanations for 25 issues. | 4      |
+| **Total possible points**                                                                                                                                                                                                                                     | 100    |

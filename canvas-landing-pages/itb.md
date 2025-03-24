@@ -16,7 +16,7 @@ This lab aims to give students hands-on practice with one of the fundamental ski
 
 ## Level Up
 
-🚀 [Level Up](../level-up/README.md)
+🚀 [Document the Remaining Issues](../document-the-remaining-issues/README.md)
 
 ## Rubric
 

@@ -20,7 +20,6 @@ repo {
 
 courses {
   new {
-    // Do not remove this fallback course!
     name = "itb"
     microlessons {
       mls.setup
@@ -28,7 +27,7 @@ courses {
       mls.identifyPatternsAndAnomalies
       mls.documentIdentifiedIssues
       // You can make course-specific adjustments using a syntax like this:
-      (mls.levelUp) {
+      (mls.documentTheRemainingIssues) {
         type = "Level Up content"
       }
     }
@@ -42,10 +41,7 @@ courses {
       mls.getFamiliarWithTheLogDump
       mls.identifyPatternsAndAnomalies
       mls.documentIdentifiedIssues
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.levelUp) {
-        type = "Level Up content"
-      }
+      mls.documentTheRemainingIssues
     }
   }
 }
