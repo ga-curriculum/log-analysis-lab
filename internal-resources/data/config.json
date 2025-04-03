@@ -60,8 +60,8 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Level Up",
-          "dirName": "level-up",
+          "friendlyName": "Document the Remaining Issues",
+          "dirName": "document-the-remaining-issues",
           "type": "Level Up content",
           "skill": "",
           "learningObjective": "",
@@ -139,9 +139,9 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Level Up",
-          "dirName": "level-up",
-          "type": "Level Up content",
+          "friendlyName": "Document the Remaining Issues",
+          "dirName": "document-the-remaining-issues",
+          "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",

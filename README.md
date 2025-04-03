@@ -13,10 +13,7 @@ This lab aims to give students hands-on practice with one of the fundamental ski
 - [Get Familiar With the Log Dump](./get-familiar-with-the-log-dump/README.md)
 - [Identify Patterns and Anomalies](./identify-patterns-and-anomalies/README.md)
 - [Document Identified Issues](./document-identified-issues/README.md)
-
-## Level Up
-
-🚀 [Level Up](./level-up/README.md)
+- [Document the Remaining Issues](./document-the-remaining-issues/README.md)
 
 ## Rubrics
 
@@ -32,6 +29,10 @@ This lab aims to give students hands-on practice with one of the fundamental ski
 ### Time to complete
 
 Estimated time to complete core lab exercise: **60 min**
+
+### Solution
+
+🏁 [Solution](https://git.generalassemb.ly/modular-curriculum-all-courses/log-analysis-lab-solution)
 
 ### Course landing pages
 

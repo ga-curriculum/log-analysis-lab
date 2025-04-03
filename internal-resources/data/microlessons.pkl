@@ -30,10 +30,9 @@ documentIdentifiedIssues = new Template.Microlesson {
   videoUrl = ""
 }
 
-levelUp = new Template.Microlesson {
-  friendlyName = "Level Up"
-  dirName = "level-up"
-  type = "Level Up Content"
+documentTheRemainingIssues = new Template.Microlesson {
+  friendlyName = "Document the Remaining Issues"
+  dirName = "document-the-remaining-issues"
+  type = "Content"
   videoUrl = ""
 }
-

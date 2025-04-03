@@ -1,6 +1,6 @@
   <h1>
     <span class="headline">Log Analysis Lab</span>
-    <span class="subhead">Level Up</span>
+    <span class="subhead">Document the Remaining Issues</span>
   </h1>
 
 ## Find all the issues

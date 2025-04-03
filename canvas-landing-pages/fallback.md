@@ -14,11 +14,8 @@ This lab aims to give students hands-on practice with one of the fundamental ski
 - [Get Familiar With the Log Dump](../get-familiar-with-the-log-dump/README.md)
 - [Identify Patterns and Anomalies](../identify-patterns-and-anomalies/README.md)
 - [Document Identified Issues](../document-identified-issues/README.md)
-
-## Level Up
-
-🚀 [Level Up](../level-up/README.md)
+- [Document the Remaining Issues](../document-the-remaining-issues/README.md)
 
 ## Rubric
 
-[Rubric](../rubrics/itb.md)
+[Rubric](../rubrics/fallback.md)
