@@ -3,6 +3,8 @@
     <span class="subhead">Document the Remaining Issues</span>
   </h1>
 
+**Learning objective:** By the end of this exercise, students will be able to identify and document all issues in a log dump file at an intermediate level.
+
 ## Find all the issues
 
 If you've made it this far, congratulations!

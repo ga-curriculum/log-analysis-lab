@@ -3,6 +3,8 @@
   <span class="subhead">Document Identified Issues</span>
 </h1>
 
+**Learning objective:** By the end of this exercise, students will be able to identify and document potential security issues in a log dump file.
+
 ## Exercise
 
 You should now have a list of at least 10 items you've flagged as potentially suspicious or problematic. In this exercise, you'll document these in more detail.

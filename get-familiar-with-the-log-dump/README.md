@@ -3,6 +3,8 @@
   <span class="subhead">Get Familiar With the Log Dump</span>
 </h1>
 
+**Learning objective:** By the end of this exercise, students will be able to identify the structure and contents of a log dump file.
+
 ## Examine the log dump file
 
 In this lab, you will develop critical skills in analyzing system logs to identify patterns, anomalies, and potential security issues. Being able to interpret the vast amount of data in log files is an essential skill for any cybersecurity professional.

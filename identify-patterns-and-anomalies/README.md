@@ -3,6 +3,8 @@
   <span class="subhead">Identify Patterns and Anomalies</span>
 </h1>
 
+**Learning objective:** By the end of this exercise, students will be able to identify patterns and anomalies in a log dump file.
+
 ## Flag potential issues
 
 Now that you're familiar with the log format, it's time to put your analysis skills to work. Sift through the log line by line and try to spot anything that looks unusual or suspicious.
