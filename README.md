@@ -32,7 +32,7 @@ Estimated time to complete core lab exercise: **60 min**
 
 ### Solution
 
-🏁 [Solution](https://git.generalassemb.ly/modular-curriculum-all-courses/log-analysis-lab-solution)
+🏁 [Solution](https://github.com/ga-curriculum/log-analysis-lab-solution)
 
 ### Course landing pages
 
